@@ -1,10 +1,6 @@
-## 欢迎访问kiftd源代码资源库！
-### Welcome to visit source of kiftd!
-
-_当前版本：v1.2.0-SNAPSHOT_
 
 ### 简介
-_kiftd——一款便捷、开源、功能完善的个人&团队&小型团队网盘服务器系统。_
+Net-disk 一款便捷、开源、功能完善的个人&团队&小型团队网盘服务器系统。_
 
 ------
 [![kiftd-mainpage.png](https://i.postimg.cc/gjyQRFVZ/kiftd-mainpage.png)](https://postimg.cc/dZ15PfSs)
@@ -58,19 +54,8 @@ _提示：源代码路径下包含了一些程序运行所需的非源代码资�
 + 启动源代码项目时出现“Error creating bean with name org.mybatis.spring.mapper.MapperScannerConfigurer”
 > 如遇该问题，请尝试将pom.xml文件中引入的`mybatis`资源和`mybatis-spring`资源移除并重新添加`mybatis-spring-boot-starter`资源，从而避免默认整合方式可能导致的Spring Boot框架插件兼容性问题（特别鸣谢：用户 michael）。
 
-### 使用许可（下载该源代码资源即视为接受以下许可）
-当前版本的kiftd使用自带的许可文件进行分发。您应该先阅读该文件（获取方式：前往kiftd发行版主页下载一份kiftd发行版并在其中获得，详见 https://github.com/KOHGYLW/kiftd ），并在同意其中的所有条款后再下载该源代码。其大致内容如下：
 
-+ 您可以免费获得该源代码的原版拷贝。
-+ 您可以自由地对该源代码进行分发、重构并运用于任何领域。
-+ 作者对于使用该源代码造成的任何后果均无需负责。
-+ 作者对该源代码具有版权。
 
-### 关于该源代码...
-该源代码为目前发布的kiftd解压即用版的原始编译来源，二者保持一致性（有时源码版本可能会略微超前），作者将在今后对其逐步进行整理以便于用户阅读，由此带来的不便敬请谅解。
 
-### 联系作者？
-如有任何需要（例如对该资源有疑问、意见或建议），请发件联系作者： kohgylw@163.com （青阳龙野），随时恭候您的来信！
 
-青阳龙野@kohgylw by 2024年01月11日
 
